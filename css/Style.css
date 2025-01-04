@@ -19,7 +19,8 @@ body {
 }
 
 .Logo {
-    font-size: 30px;
+    font-size: 18px;
+    font-family: figtree;
     color: white;
     text-decoration: none;
 
@@ -31,6 +32,8 @@ body {
 .about {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    font-family: figtree;
 }
 
 .aboutme a:hover {
@@ -41,7 +44,7 @@ body {
     width: 1270px;
     margin: auto;
     height: 366px;
-    background-color: #141414;
+    background-color: #ffffff14;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -56,13 +59,15 @@ body {
 .firstheader h2 {
     font-size: 80px;
     font-weight: 800;
-    color: white;
-    /* padding: 10px; */
+    color:#ffebee;
+    font-family: cabinetgrotesk;
+    
 }
 
 .firstheader p {
     font-size: 50px;
-    color: #ffebee;
+    color: #ffebee4c;
+    font-weight: 700;
 }
 
 .content1 {
@@ -75,6 +80,16 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    
+}
+
+.paragraph1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+
 }
 
 .paragraph2 {
@@ -82,12 +97,16 @@ body {
     margin-top: 2%;
     padding-left: 7%;
     font-size: 20px;
+    font-family: figtree;
     color: grey;
+    line-height: 27px;
 
 }
 
 .links a {
     color: white;
+    font-family: figtree;
+    line-height: 27px;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -106,15 +125,6 @@ span {
     color: white;
 }
 
-.paragraph1 {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 10%;
-
-}
-
 .project1 {
     width: 90%;
     margin-left: 6%;
@@ -131,36 +141,48 @@ span {
 
 .container {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 24px;
     width: 28%;
     height: 220px;
     position: absolute;
     left: 65%;
     top: 130px;
-    transform: rotate(-25deg);
-    transform: transform 0.5s ease;
+    transform: rotate(-30deg);
+    transform: transform 0.3s ease;
 }
-
+.container:hover{
+    transform: scale(1.2)
+}
+.date{
+    font-family: inter;
+}
 .project1 h1 {
-    font-size: 45px;
-    color: white;
+    font-size: 40px;
+    font-family: cabinetgrotesk;
+    color: #ffebee;
 }
 
 .project1 h2 {
     font-size: 30px;
+    font-family: figtree;
+    /* line-height: 36px; */
     color: white;
 }
 
 .project1 p {
-    font-size: 20px;
-    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: figtree;
+    color: #ffffff80;
+    line-height: 24px;
 }
 
 .class1 {
     width: 5%;
     padding: 7px;
-    background-color: #141747;
+    background-color: #719be9;
     color: white;
+    font-family: figtree;
     border-radius: 5px;
 
 }
@@ -168,7 +190,8 @@ span {
 .class2 {
     width: 4%;
     padding: 7px;
-    background-color: #141747;
+    font-family: figtree;
+    background-color: #719be9;
     color: white;
     border-radius: 5px;
 }
@@ -176,7 +199,8 @@ span {
 .class3 {
     width: 6%;
     padding: 7px;
-    background-color: #141747;
+    font-family: figtree;
+    background-color: #719be9;
     color: white;
     border-radius: 5px;
 
@@ -202,7 +226,8 @@ span {
     align-items: center;
     width: 7%;
     height: 40px;
-    border: 1px solid grey;
+    border: 1px solid #ffffff66;
+    font-weight: 500;
     border-radius: 5px;
 }
 
@@ -215,19 +240,23 @@ span {
     align-items: center;
     width: 7%;
     height: 40px;
-    border: 1px solid grey;
+    border: 1px solid #ffffff66;
+    font-weight: 500;
     border-radius: 5px;
 
 }
 
 .project3 h2 {
+    font-family: figtree;
     font-size: 30px;
     color: white;
 }
 
 .project3 p {
-    font-size: 20px;
-    color: grey;
+    font-size: 18px;
+    font-family: figtree;
+    line-height: 24px;
+    color: #ffffff80;
 }
 
 .vortipay {
@@ -246,7 +275,7 @@ span {
 
 .vortipaycontainer {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 24px;
     width: 28%;
     height: 220px;
     position: absolute;
@@ -255,15 +284,21 @@ span {
     transform: rotate(-20deg);
     transform: transform 0.5s ease;
 }
+.vortipaycontainer:hover{
+    transform: scale(1.2);
+}
 
 .project4 h2 {
     font-size: 30px;
     color: white;
+    font-family: figtree;
 }
 
 .project4 p {
-    font-size: 20px;
-    color: grey;
+    font-size: 18px;
+    font-family: figtree;
+    color: #ffffff80;
+    line-height: 24px;
 }
 
 .project4 {
@@ -281,7 +316,7 @@ span {
 
 .landingpagecon {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 24px;
     width: 28%;
     height: 220px;
     position: absolute;
@@ -290,6 +325,9 @@ span {
     transform: rotate(-20deg);
     transform: transform 0.5s ease;
 }
+.landingpagecon:hover{
+    transform: scale(1.2);
+}
 
 .contact {
     width: 90%;
@@ -297,20 +335,25 @@ span {
 }
 
 .contact h1 {
-    font-size: 45px;
-    color: white;
+    font-family: figtree;
+    font-size: 64px;
+    color: #ffebee;
+    font-weight: 800;
 }
 
 .contact p {
-    font-size: 20px;
-    color: grey;
+    font-size: 18px;
+    font-family: figtree;
+    line-height: 24px;
+    color: #ffffff80;
+    
 }
 
 .social1 {
-    width: 8%;
+    width: 5%;
     padding: 10px 20px;
     border: 1px solid grey;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,9 +364,10 @@ span {
 .social1 a{
     color: white;
     text-decoration: none;
+    font-family: sora;
 }
 .social2 {
-    width: 8%;
+    width: 7%;
     padding: 10px 20px;
     border: 1px solid grey;
     border-radius: 20px;
@@ -338,7 +382,7 @@ span {
     text-decoration: none;
 }
 .social3 {
-    width: 4%;
+    width: 2%;
     padding: 10px 20px;
     border: 1px solid grey;
     border-radius: 20px;
@@ -354,7 +398,7 @@ span {
 .socialmedia{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 15px;
 
 }
@@ -363,18 +407,23 @@ span {
     display: flex;
     justify-content: center;
     background-color: white;
-    gap: 7px;
-    width: 9%;
-    padding: 13px 30px;
+    gap: 4px;
+    width: 11%;
+    padding: 12px 15px;
     margin: auto;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-bottom: 5%;
+    
 }
 
 .ilink a {
     text-decoration: none;
-    color: black;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: figtree;
+    
 }
 
 .ilink a:hover {
