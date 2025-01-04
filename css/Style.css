@@ -350,43 +350,32 @@ span {
     
 }
 
-.social1 {
-    width: 5%;
-    padding: 10px 20px;
+.social1 a{
+    color: white;
+    font-family: figtree;
+    text-decoration: none;
+}
+.social1{
+    width: 6%;
+    padding: 8px 20px;
     border: 1px solid grey;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2px;
-
-
 }
-.social1 a{
-    color: white;
-    text-decoration: none;
-    font-family: sora;
-}
-.social2 {
-    width: 7%;
-    padding: 10px 20px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-
 .social2 a{
     color: white;
+    font-family: figtree;
     text-decoration: none;
 }
-.social3 {
-    width: 2%;
-    padding: 10px 20px;
+
+.social2{
+    width: 7%;
+    padding: 8px 20px;
     border: 1px solid grey;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -394,16 +383,25 @@ span {
 }
 .social3 a{
     color: white;
+    font-family: figtree;
     text-decoration: none;
+}
+.social3{
+    width: 1%;
+    padding: 8px 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
 }
 .socialmedia{
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-bottom: 15px;
-
 }
-
 .ilink {
     display: flex;
     justify-content: center;
