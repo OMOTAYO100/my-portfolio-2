@@ -98,8 +98,8 @@ span{
     width: 95%;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(3, 250px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
     gap: 15px;
     margin-bottom: 15%;
 }
@@ -108,9 +108,12 @@ span{
     background-color: grey;
     padding: 100px;
     text-align: center;
-    border: 1px solid blue;
+    border: 1px solid #ffffff80;
     border-radius: 5px;
     
+}
+.userwork1:hover{
+    transform: scale(1.05);
 }
 
 .contact {
@@ -123,6 +126,7 @@ span{
     font-size: 64px;
     color: #ffebee;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .contact p {
@@ -209,8 +213,21 @@ span{
     font-family: figtree;
     
 }
+.social1 a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.social2 a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.social3 a:hover{
+    color: grey;
+    text-decoration: underline;
+}
 
 .ilink a:hover {
     text-decoration: underline;
+    color: grey;
 }
 
