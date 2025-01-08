@@ -108,12 +108,12 @@ span{
     background-color: grey;
     padding: 100px;
     text-align: center;
-    border: 1px solid #ffffff80;
-    border-radius: 5px;
+    border: 2px solid #ffffff80;
+    border-radius: 10px;
     
 }
 .userwork1:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -234,118 +234,3 @@ span{
 
 
 
-/* .contact {
-    width: 90%;
-    text-align: center;
-}
-
-.contact h1 {
-    font-family: figtree;
-    font-size: 64px;
-    color: #ffebee;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.contact p {
-    font-size: 18px;
-    font-family: figtree;
-    line-height: 24px;
-    color: #ffffff80;
-    
-}
-
-.social1 {
-    width: 6%;
-    padding: 10px 15px;
-    border: 1px solid grey;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-
-
-}
-.social1 a{
-    color: white;
-    text-decoration: none;
-    
-}
-.social2 {
-    width: 7%;
-    padding: 10px 20px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-
-.social2 a{
-    color: white;
-    text-decoration: none;
-}
-.social3 {
-    width: 2%;
-    padding: 10px 15px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-.social3 a{
-    color: white;
-    text-decoration: none;
-}
-.socialmedia{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-
-}
-
-.ilink {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    gap: 4px;
-    width: 11%;
-    padding: 12px 15px;
-    margin: auto;
-    align-items: center;
-    border-radius: 25px;
-    margin-bottom: 5%;
-    
-}
-
-.ilink a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: figtree;
-    
-}
-.social1 a:hover{
-    color: grey;
-    text-decoration: underline;
-}
-.social2 a:hover{
-    color: grey;
-    text-decoration: underline;
-}
-.social3 a:hover{
-    color: grey;
-    text-decoration: underline;
-}
-
-.ilink a:hover {
-    text-decoration: underline;
-    color: grey;
-}
- */

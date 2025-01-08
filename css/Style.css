@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: black;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .navbar {
@@ -407,7 +408,7 @@ span {
     justify-content: center;
     background-color: white;
     gap: 4px;
-    width: 11%;
+    width: 10%;
     padding: 12px 15px;
     margin: auto;
     align-items: center;
@@ -419,7 +420,7 @@ span {
 .ilink a {
     text-decoration: none;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     font-family: figtree;
     
