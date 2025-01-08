@@ -3,7 +3,6 @@ body {
     margin: 0;
     background-color: black;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 .navbar {
@@ -102,6 +101,21 @@ body {
     color: grey;
     line-height: 27px;
 
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-family: figtree;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+button:hover{
+    color: grey;
+    text-decoration: underline;
 }
 
 .links a {
