@@ -21,7 +21,7 @@ body {
 
 nav {
     grid-area: navbar;
-    
+
 }
 
 main {
@@ -128,6 +128,12 @@ footer {
     margin: auto;
 
 }
+
+.myemoji {
+    width: 250px;
+    height: 250px;
+}
+
 
 .paragraph1 {
 
@@ -527,13 +533,15 @@ footer {
 
 @media (max-width: 700px) {
     body {
+        align-items: center;
         grid-template-columns: 1fr;
         grid-template-rows: auto 1fr auto;
 
     }
-    .navbar{
-        margin: auto;
-        margin-bottom: 15%;
+
+    .navbar {
+        margin-left: 10px;
+        margin-bottom: 25%;
     }
 
     .links {
@@ -543,7 +551,7 @@ footer {
     .line-2 {
         position: relative;
         top: 150px;
-        right: 270px;
+        right: 200px;
     }
 
     .paragraph2 {
@@ -561,19 +569,29 @@ footer {
     .landingpagecon {
         display: none;
     }
-
-    .content2 h2 {
-        /* display: flex;
-    flex-direction: column; */
-        margin: auto;
-        font-size: 45px;
-        line-height: 1.3;
+    .firstheader{
+        width: 100%;
 
     }
 
-    .content2 p {
-        font-size: 35px;
+    .content2 h2 {
+
+        /* width: 100%; */
+        font-size: 45px;
         line-height: 1.2;
+    }
+
+    .content2 p {
+        font-size: 39px;
+        line-height: 1.2;
+    }
+
+    .myemoji {
+         width: 100px; 
+        height: 100px;
+        position: relative;
+        bottom: 33%;
+        right: 83%;
     }
 
     .project2 .date {
