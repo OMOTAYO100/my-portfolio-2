@@ -1,13 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     padding: 0;
     margin: 0;
     background-color: black;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        'navbar navbar navbar'
+        'main main main'
+        'footer footer footer'
+    ;
+
+}
+
+nav {
+    grid-area: navbar;
+    
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: blue;
+    padding: 30px;
 }
 
 .navbar {
-    
-    width: 90%;
+
+    width: 100%;
     height: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -25,9 +54,19 @@ body {
     text-decoration: none;
 
 }
-.navbar a:hover{
+
+.navbar a:hover {
     text-decoration: underline;
 }
+
+.download-btn {
+    width: auto;
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: figtree;
+}
+
 
 .about {
     color: white;
@@ -36,12 +75,19 @@ body {
     font-family: figtree;
 }
 
+.aboutme {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
 .aboutme a:hover {
     text-decoration: underline;
 }
 
 .firstheader {
-    width: 1270px;
+    width: 90%;
     margin: auto;
     height: 366px;
     background-color: #ffffff14;
@@ -59,9 +105,9 @@ body {
 .firstheader h2 {
     font-size: 80px;
     font-weight: 800;
-    color:#ffebee;
+    color: #ffebee;
     font-family: cabinetgrotesk;
-    
+
 }
 
 .firstheader p {
@@ -80,7 +126,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    
+
 }
 
 .paragraph1 {
@@ -88,7 +134,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 10%;
+    padding-right: 7%;
 
 }
 
@@ -103,7 +149,7 @@ body {
 
 }
 
-button{
+button {
     background-color: black;
     color: white;
     width: 30%;
@@ -113,7 +159,8 @@ button{
     border: 2px solid grey;
     border-radius: 20px;
 }
-button:hover{
+
+button:hover {
     color: grey;
     text-decoration: underline;
 }
@@ -165,12 +212,15 @@ span {
     transform: rotate(-30deg);
     transform: transform 0.3s ease;
 }
-.container:hover{
+
+.container:hover {
     transform: scale(1.2)
 }
-.date{
+
+.date {
     font-family: inter;
 }
+
 .project1 h1 {
     font-size: 40px;
     font-family: cabinetgrotesk;
@@ -299,7 +349,8 @@ span {
     transform: rotate(-20deg);
     transform: transform 0.5s ease;
 }
-.vortipaycontainer:hover{
+
+.vortipaycontainer:hover {
     transform: scale(1.2);
 }
 
@@ -340,13 +391,15 @@ span {
     transform: rotate(-20deg);
     transform: transform 0.5s ease;
 }
-.landingpagecon:hover{
+
+.landingpagecon:hover {
     transform: scale(1.2);
 }
 
 .contact {
     width: 90%;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .contact h1 {
@@ -362,32 +415,17 @@ span {
     font-family: figtree;
     line-height: 24px;
     color: #ffffff80;
-    
+
 }
 
-.social1 a{
-    color: white;
-    font-family: figtree;
-    text-decoration: none;
-}
-.social1{
-    width: 6%;
-    padding: 8px 20px;
-    border: 1px solid grey;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-.social2 a{
+.social1 a {
     color: white;
     font-family: figtree;
     text-decoration: none;
 }
 
-.social2{
-    width: 7%;
+.social1 {
+    width: 8%;
     padding: 8px 20px;
     border: 1px solid grey;
     border-radius: 25px;
@@ -396,13 +434,15 @@ span {
     align-items: center;
     gap: 2px;
 }
-.social3 a{
+
+.social2 a {
     color: white;
     font-family: figtree;
     text-decoration: none;
 }
-.social3{
-    width: 1%;
+
+.social2 {
+    width: 9%;
     padding: 8px 20px;
     border: 1px solid grey;
     border-radius: 25px;
@@ -411,24 +451,43 @@ span {
     align-items: center;
     gap: 2px;
 }
-.socialmedia{
+
+.social3 a {
+    color: white;
+    font-family: figtree;
+    text-decoration: none;
+}
+
+.social3 {
+    width: 2%;
+    padding: 8px 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.socialmedia {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
+
 .ilink {
     display: flex;
     justify-content: center;
     background-color: white;
     gap: 4px;
-    width: 10%;
+    width: 12%;
     padding: 12px 15px;
     margin: auto;
     align-items: center;
     border-radius: 25px;
     margin-bottom: 5%;
-    
+
 }
 
 .ilink a {
@@ -437,17 +496,20 @@ span {
     font-size: 15px;
     font-weight: 500;
     font-family: figtree;
-    
+
 }
-.social1 a:hover{
+
+.social1 a:hover {
     color: grey;
     text-decoration: underline;
 }
-.social2 a:hover{
+
+.social2 a:hover {
     color: grey;
     text-decoration: underline;
 }
-.social3 a:hover{
+
+.social3 a:hover {
     color: grey;
     text-decoration: underline;
 }
@@ -457,3 +519,76 @@ span {
     color: grey;
 }
 
+footer {
+    color: white;
+}
+
+/* this is the media query section  */
+
+@media (max-width: 700px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+
+    }
+    .navbar{
+        margin-bottom: 15%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .line-2 {
+        position: relative;
+        top: 150px;
+        right: 270px;
+    }
+
+    .paragraph2 {
+        margin-bottom: 20%;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .vortipaycontainer {
+        display: none;
+    }
+
+    .landingpagecon {
+        display: none;
+    }
+
+    .content2 h2 {
+        /* display: flex;
+    flex-direction: column; */
+        margin: auto;
+        font-size: 45px;
+        line-height: 1.3;
+
+    }
+
+    .content2 p {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .project2 .date {
+        display: none;
+    }
+
+    .vortipay .date {
+        display: none;
+    }
+
+    .landingpage .date {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
