@@ -545,7 +545,7 @@ span {
     }
 
     .navbar {
-        margin-left: ;
+        margin-left: 10px ;
         margin-bottom: 25%;
     }
 
@@ -600,7 +600,7 @@ span {
          width: 100px; 
         height: 100px;
         position: relative;
-        bottom: 49%;
+        bottom: 40%;
         right: 75%;
     }
 
