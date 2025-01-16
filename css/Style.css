@@ -546,7 +546,8 @@ span {
 
     .navbar {
         margin-left: 10px ;
-        margin-bottom: 25%;
+        margin-bottom: 30%;
+        justify-content: space-between;
     }
 
     .links {
@@ -600,7 +601,7 @@ span {
          width: 100px; 
         height: 100px;
         position: relative;
-        bottom: 40%;
+        bottom: 30%;
         right: 75%;
     }
 
