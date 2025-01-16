@@ -479,7 +479,7 @@ span {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 
 .ilink {
@@ -551,7 +551,7 @@ footer {
     .line-2 {
         position: relative;
         top: 150px;
-        right: 200px;
+        right: 185px;
     }
 
     .paragraph2 {
@@ -605,6 +605,43 @@ footer {
     .landingpage .date {
         display: none;
     }
+    .class1{
+        width: auto;
+    padding: 7px;
+    /* background-color: #719be9;
+    color: white;
+    font-family: figtree;
+    border-radius: 5px; */
+        
+    }
+    .class2{
+width: auto;
+    }
+    .class3{
+width: auto;
+    }
+    .demo1{
+        width: auto;
+    }
+    .code{
+        width: auto;
+    }
+    .social1{
+width: auto;
+    }
+    .social2{
+width: auto;
+    }
+    .social3{
+width: auto;
+    }
+    .ilink{
+        width: 40%;
+    }
+    .socialmedia{
+        margin-bottom: 5%;
+    }
+    
 
     footer {
         display: none;
