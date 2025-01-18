@@ -47,6 +47,10 @@ body {
     align-items: center;
     gap: 30px;
 }
+.userprofile-image{
+    width: 200px;
+    height: 180px;
+}
 
 .image1 {
     height: 70%;
@@ -231,6 +235,20 @@ span{
     text-decoration: underline;
     color: grey;
 }
+/* meadi query section */
 
+@media (max-width 700px;) {
+    .navbar{
+        width: auto;
+    }
+    .userprofile-image{
+        width: 100px;
+        height: 80px;
+        position: relative;
+        bottom: 100%;
+        left: 30%;
+
+    }
+}
 
 

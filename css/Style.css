@@ -58,6 +58,24 @@ footer {
 .navbar a:hover {
     text-decoration: underline;
 }
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-sizing: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar a{
+    width: 100%;
+}
 
 .download-btn {
     background-color: black;
@@ -160,16 +178,7 @@ footer {
 
 }
 
-/* button {
-    background-color: black;
-    color: white;
-    width: 55%;
-    padding: 5px 20px;
-    font-size: 16px;
-    font-family: figtree;
-    border: 2px solid grey;
-    border-radius: 20px;
-} */
+
 
 button:hover {
     color: grey;
@@ -548,6 +557,9 @@ span {
         margin-left: 10px ;
         margin-bottom: 30%;
         justify-content: space-between;
+    } 
+    .navbar .Logo{
+    align-items: flex-start;
     }
 
     .links {
@@ -600,9 +612,9 @@ span {
     .myemoji {
          width: 100px; 
         height: 100px;
-        position: relative;
-        bottom: 30%;
-        right: 75%;
+        position: absolute;
+     top: 23%;
+        left: 5%;
     }
 
     .project2 .date {
@@ -647,7 +659,7 @@ width: auto;
 width: auto;
     }
     .ilink{
-        width: 50%;
+        width: 60%;
     }
     .socialmedia{
         margin-bottom: 5%;
