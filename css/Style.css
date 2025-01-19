@@ -7,9 +7,9 @@ body {
     padding: 0;
     margin: 0;
     background-color: black;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         'navbar navbar navbar'
@@ -32,7 +32,7 @@ footer {
     grid-area: footer;
     background-color: blue;
     padding: 30px;
-}
+} */
 
 .navbar {
 
@@ -58,7 +58,8 @@ footer {
 .navbar a:hover {
     text-decoration: underline;
 }
-.sidebar{
+
+.sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -73,7 +74,8 @@ footer {
     align-items: flex-start;
     justify-content: flex-start;
 }
-.sidebar a{
+
+.sidebar a {
     width: 100%;
 }
 
@@ -635,9 +637,9 @@ span {
     color: white;
     font-family: figtree;
     border-radius: 5px; */
-        
-    
-    /* .class2{
+
+
+/* .class2{
 width: auto;
     }
     .class3{
@@ -677,35 +679,44 @@ position: relative;
     }
 
 
-} */ 
+} */
 
 
- /* Small devices (landscape phones, 576px and up) */
-@media(min-width: 576px) {
+/* Small devices (landscape phones, 576px and up) */
+@media(min-width: 428px) {
 
-body{
-    width: 100%;
-    background-color: aqua;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto 1fr auto;
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background-color: aqua;
+    
+
+    }
+
+    .navbar {
+        background-color: red;
+        width: 100%;
+    
+
+    }
+
+
 }
-.navbar{
-    background-color: red;
-    width: 100%;
-    padding: 0% 10px;
-    margin: auto;
-}
 
- 
-}
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
 
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ...
+}
 
- /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) {
+    ...
+}

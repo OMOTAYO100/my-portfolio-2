@@ -239,7 +239,7 @@ span{
 
 @media (max-width 700px;) {
     .navbar{
-        width: auto;
+        width: 100%;
     }
     .userprofile-image{
         width: 100px;
