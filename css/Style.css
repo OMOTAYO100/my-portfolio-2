@@ -688,13 +688,11 @@ position: relative;
         body {
             width: 100%;
             min-height: 100vh;
-            background-color: aqua;
 
 
         }
 
         .navbar {
-            background-color: red;
             width: 100%;
             margin-bottom: 33%;
 
@@ -798,6 +796,10 @@ position: relative;
 
         .social3 {
             width: auto;
+        }
+        .socialmedia{
+            gap: 10px;
+            margin-bottom: 7%;
         }
 
         .ilink {
