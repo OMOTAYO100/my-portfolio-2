@@ -235,15 +235,21 @@ span{
     text-decoration: underline;
     color: grey;
 }
-/* meadi query section */
+/* meadia query section */
 
-@media (max-width 700px;) {
+@media (min-width:476px) {
+    body {
+        width: 100% ;
+        background-color: black;
+        min-height: 100vh;
+    }
     .navbar{
         width: 100%;
+        background-color: red;
     }
     .userprofile-image{
-        width: 100px;
-        height: 80px;
+        width: 150px;
+        height: 120px;
         position: relative;
         bottom: 100%;
         left: 30%;
