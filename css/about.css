@@ -17,7 +17,8 @@ body {
     margin-bottom: 5%;
 
 }
-.navbar a:hover{
+
+.navbar a:hover {
     text-decoration: underline;
 }
 
@@ -47,13 +48,14 @@ body {
     align-items: center;
     gap: 30px;
 }
-.userprofile-image{
+
+.userprofile-image {
     width: 200px;
     height: 180px;
 }
 
 .image1 {
-    height: 70%;
+    height: 102%;
     position: absolute;
     left: 11%;
 }
@@ -75,9 +77,20 @@ body {
     font-family: figtree;
     line-height: 30px;
 }
-span{
+
+span {
     color: white;
 }
+.paragraph1{
+    margin-bottom: 30px;
+}
+.paragraph2{
+    margin-bottom: 30px;
+}
+.paragraph3{
+    margin-bottom: 30px;
+}
+
 
 .userwork {
     color: white;
@@ -98,7 +111,7 @@ span{
     font-size: 25px;
 }
 
-.userworks{
+.userworks {
     width: 95%;
     margin: auto;
     display: grid;
@@ -114,9 +127,10 @@ span{
     text-align: center;
     border: 2px solid #ffffff80;
     border-radius: 10px;
-    
+
 }
-.userwork1:hover{
+
+.userwork1:hover {
     transform: scale(1.02);
 }
 
@@ -141,13 +155,16 @@ span{
     font-family: figtree;
     line-height: 24px;
     color: #ffffff80;
-    
+
 }
-.social1 a{
+
+.social1 a {
     color: white;
     font-family: figtree;
     text-decoration: none;
-}.social1{
+}
+
+.social1 {
     width: 6%;
     padding: 8px 20px;
     border: 1px solid grey;
@@ -157,13 +174,14 @@ span{
     align-items: center;
     gap: 2px;
 }
-.social2 a{
+
+.social2 a {
     color: white;
     font-family: figtree;
     text-decoration: none;
 }
 
-.social2{
+.social2 {
     width: 7%;
     padding: 8px 20px;
     border: 1px solid grey;
@@ -173,12 +191,14 @@ span{
     align-items: center;
     gap: 2px;
 }
-.social3 a{
+
+.social3 a {
     color: white;
     font-family: figtree;
     text-decoration: none;
 }
-.social3{
+
+.social3 {
     width: 1%;
     padding: 8px 20px;
     border: 1px solid grey;
@@ -188,7 +208,8 @@ span{
     align-items: center;
     gap: 2px;
 }
-.socialmedia{
+
+.socialmedia {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -207,7 +228,7 @@ span{
     align-items: center;
     border-radius: 25px;
     margin-bottom: 5%;
-    
+
 }
 
 .ilink a {
@@ -216,17 +237,20 @@ span{
     font-size: 16px;
     font-weight: 500;
     font-family: figtree;
-    
+
 }
-.social1 a:hover{
+
+.social1 a:hover {
     color: grey;
     text-decoration: underline;
 }
-.social2 a:hover{
+
+.social2 a:hover {
     color: grey;
     text-decoration: underline;
 }
-.social3 a:hover{
+
+.social3 a:hover {
     color: grey;
     text-decoration: underline;
 }
@@ -235,19 +259,26 @@ span{
     text-decoration: underline;
     color: grey;
 }
+
 /* meadia query section */
 
-@media (min-width:476px) {
+@media (max-width:476px) {
     body {
-        width: 100% ;
-        background-color: black;
+        width: 100%;
         min-height: 100vh;
     }
-    .navbar{
-        width: 100%;
-        background-color: red;
+
+    .navbar {
+        height: 60px;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-bottom: 170px;
+
+
+
     }
-    .userprofile-image{
+
+    .userprofile-image {
         width: 150px;
         height: 120px;
         position: relative;
@@ -255,6 +286,79 @@ span{
         left: 30%;
 
     }
+
+    .userworks {
+        width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(300px);
+    }
+
+    .userprofile-image {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 12%;
+        left: 5%;
+
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .userprofile2 p br {
+        display: none;
+    }
+
+    .userprofile2 p{
+        width: 90%;
+        margin: auto;
+    }
+    .paragraph1 {
+        margin-bottom: 50px;
+    }
+    .paragraph2{
+        margin-bottom: 50px;
+    }
+    .paragraph3{
+        margin-bottom: 50px;
+    }
+    .userwork{
+        width: auto;
+        margin-right: 70px;  
+    }
+    .contact{
+        width: 90%;
+        margin: auto;
+    }
+    .contact h1 {
+        font-size: 50px;
+    }
+
+    .contact p br {
+        display: none;
+    }
+
+    .social1 {
+        width: auto;
+    }
+
+    .social2 {
+        width: auto;
+    }
+
+    .social3 {
+        width: auto;
+    }
+
+    .socialmedia {
+        gap: 10px;
+        margin-bottom: 7%;
+    }
+
+    .ilink {
+        width: 60%;
+    }
+
 }
-
-
