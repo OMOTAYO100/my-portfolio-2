@@ -308,6 +308,7 @@ span {
     line-height: 24px;
     color: #ffffff80;
 }
+
 /* .vortipay p{
     width: 100%;
 } */
@@ -362,6 +363,7 @@ span {
     position: relative;
     margin-bottom: 20%;
 }
+
 /* .landingpage p{
     width: 50%;
 } */
@@ -523,7 +525,7 @@ span {
     }
 
     .navbar {
-background-color: lightblue;
+        background-color: #719be9;
         height: 60px;
         padding-left: 4%;
         padding-right: 4%;
@@ -586,17 +588,18 @@ background-color: lightblue;
         flex-direction: column;
     }
 
-     .project2 p {
+    .project2 p {
         width: auto;
         font-size: 16px;
         line-height: 1.6;
         /* Improve readability with better line height */
-         margin-bottom: 5px;
+        margin-bottom: 5px;
         max-width: 100%;
         white-space: normal;
         color: #ffffff80;
-    } 
-    .project2 p br{
+    }
+
+    .project2 p br {
         display: none;
     }
 
@@ -632,7 +635,8 @@ background-color: lightblue;
         white-space: normal;
         color: #ffffff80;
     }
-    .vortipay p br{
+
+    .vortipay p br {
         display: none;
     }
 
@@ -661,7 +665,8 @@ background-color: lightblue;
     .landingpage {
         flex-direction: column;
     }
-    .landingpage h2{
+
+    .landingpage h2 {
         margin-bottom: 0;
     }
 
@@ -675,7 +680,8 @@ background-color: lightblue;
         white-space: normal;
         color: #ffffff80;
     }
-    .landingpage p br{
+
+    .landingpage p br {
         display: none;
     }
 
@@ -702,7 +708,8 @@ background-color: lightblue;
     .contact h1 {
         font-size: 50px;
     }
-    .contact p br{
+
+    .contact p br {
         display: none;
     }
 
