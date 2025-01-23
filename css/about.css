@@ -262,7 +262,7 @@ span {
 
 /* meadia query section */
 
-@media (max-width:476px) {
+@media (min-width: 320px) and (max-width:476px) {
     body {
         width: 100%;
         min-height: 100vh;

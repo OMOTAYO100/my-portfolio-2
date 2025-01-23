@@ -587,13 +587,15 @@ span {
     .project2 {
         flex-direction: column;
     }
-
+.project2 .date{
+    margin-bottom: -10px;
+}
     .project2 p {
         width: auto;
         font-size: 16px;
         line-height: 1.6;
         /* Improve readability with better line height */
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         max-width: 100%;
         white-space: normal;
         color: #ffffff80;
@@ -604,13 +606,13 @@ span {
     }
 
     .project1 h2 {
-        margin-bottom: 0px;
+        margin-bottom: -8px;
     }
 
     .date {
         order: -1;
         /* Move date up in the flex container */
-        margin-bottom: 15px;
+        margin-bottom: 75px;
         /* Add space between date and description */
         color: #ffffff80;
         /* Making date color consistent with other text */
@@ -620,9 +622,16 @@ span {
     .project3 {
         position: relative;
     }
+    .project3 h2{
+margin-bottom: -8px;
+/* Reduce space between header and date */
+    }
 
     .vortipay {
         flex-direction: column;
+    }
+    .vortipay .date{
+        margin-bottom: -10px;
     }
 
     .vortipay p {
@@ -630,7 +639,7 @@ span {
         font-size: 16px;
         line-height: 1.6;
         /* Improve readability with better line height */
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         max-width: 100%;
         white-space: normal;
         color: #ffffff80;
@@ -640,15 +649,11 @@ span {
         display: none;
     }
 
-    .project3 h2 {
-        margin-bottom: 0;
-        /* Reduce space between header and date */
-    }
 
     .date {
         order: -1;
         /* Move date up in the flex container */
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         /* Add space between date and description */
         color: #ffffff80;
         /* Making date color consistent with other text */
@@ -666,8 +671,8 @@ span {
         flex-direction: column;
     }
 
-    .landingpage h2 {
-        margin-bottom: 0;
+    .project4 h2 {
+        margin-bottom: -8px;
     }
 
     .landingpage p {
@@ -675,10 +680,13 @@ span {
         font-size: 16px;
         line-height: 1.6;
         /* Improve readability with better line height */
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         max-width: 100%;
         white-space: normal;
         color: #ffffff80;
+    }
+    .landingpage .date{
+        margin-bottom: -10px;
     }
 
     .landingpage p br {
@@ -699,10 +707,12 @@ span {
 
     .demo1 {
         width: auto;
+        padding: 0 10px;
     }
 
     .code {
         width: auto;
+        padding: 0 10px;
     }
 
     .contact h1 {
