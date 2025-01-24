@@ -181,7 +181,8 @@ span {
 
 .project2 {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    position: relative;
 }
 
 
@@ -193,14 +194,16 @@ span {
     width: 28%;
     height: 220px;
     position: absolute;
-    left: 65%;
-    top: 130px;
-    transform: rotate(-30deg);
+    right: 5%;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: rotate(-15deg);
     transform: transform 0.3s ease;
 }
 
-.container:hover {
-    transform: scale(1.2)
+.project2:hover .container {
+    opacity: 1;
 }
 
 .date {
@@ -316,6 +319,7 @@ span {
 .vortipay {
     display: flex;
     justify-content: space-between;
+    position: relative;
 
 }
 
@@ -333,15 +337,21 @@ span {
     width: 28%;
     height: 220px;
     position: absolute;
-    left: 65%;
-    top: 70px;
-    transform: rotate(-20deg);
+    right: 5%;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: rotate(-15deg);
     transform: transform 0.5s ease;
 }
 
-.vortipaycontainer:hover {
-    transform: scale(1.2);
+.vortipay:hover .vortipaycontainer {
+    opacity: 1;
 }
+
+/* .vortipaycontainer:hover {
+    transform: scale(1.2);
+} */
 
 .project4 h2 {
     font-size: 30px;
@@ -371,6 +381,7 @@ span {
 .landingpage {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .landingpagecon {
@@ -379,14 +390,16 @@ span {
     width: 28%;
     height: 220px;
     position: absolute;
-    left: 65%;
-    top: 70px;
-    transform: rotate(-20deg);
+    right: 5%;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: rotate(-15deg);
     transform: transform 0.5s ease;
 }
 
-.landingpagecon:hover {
-    transform: scale(1.2);
+.landingpage:hover .landingpagecon {
+    opacity: 1
 }
 
 .contact {
@@ -586,9 +599,11 @@ span {
     .project2 {
         flex-direction: column;
     }
-.project2 .date{
-    margin-bottom: -10px;
-}
+
+    .project2 .date {
+        margin-bottom: -10px;
+    }
+
     .project2 p {
         width: auto;
         font-size: 16px;
@@ -621,15 +636,17 @@ span {
     .project3 {
         position: relative;
     }
-    .project3 h2{
-margin-bottom: -8px;
-/* Reduce space between header and date */
+
+    .project3 h2 {
+        margin-bottom: -8px;
+        /* Reduce space between header and date */
     }
 
     .vortipay {
         flex-direction: column;
     }
-    .vortipay .date{
+
+    .vortipay .date {
         margin-bottom: -10px;
     }
 
@@ -684,7 +701,8 @@ margin-bottom: -8px;
         white-space: normal;
         color: #ffffff80;
     }
-    .landingpage .date{
+
+    .landingpage .date {
         margin-bottom: -10px;
     }
 
