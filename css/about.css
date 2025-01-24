@@ -328,6 +328,8 @@ span {
         width: 70%;
         margin: auto;  
         padding: 0 15px;
+        margin-top: 15px;
+        margin-bottom: 25px;
     }
     .contact{
         width: 90%;
