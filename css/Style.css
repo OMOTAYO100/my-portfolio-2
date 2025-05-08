@@ -190,12 +190,12 @@ span {
   width: 0;
   height: 2px;
   background-color: grey;
-  transition: width 2s ease; 
+  transition: width 1.8s ease; 
 }
 
 
 .project1:hover .second-line-container {
-  animation: rollRight 2s forwards;
+  animation: rollRight 1.8s forwards;
 }
 
 
@@ -348,12 +348,12 @@ span {
   width: 0;
   height: 2px;
   background-color: grey;
-  transition: width 2s ease; 
+  transition: width 1.8s ease; 
 }
 
 
 .project3:hover .second-line-container {
-  animation: rollRight 2s forwards;
+  animation: rollRight 1.8s forwards;
 }
 
 
@@ -418,7 +418,7 @@ span {
 
 
 .project4:hover .fourth-rolling-line {
-  animation: rollRight 2s forwards;
+  animation: rollRight 1.8s forwards;
 }
 
 
@@ -564,7 +564,7 @@ span {
 
 /* media query section   */
 
-@media (min-width: 320px) and (max-width: 476px) {
+@media only screen and (max-width: 428px) {
   body {
     width: 100%;
     min-height: 100vh;
